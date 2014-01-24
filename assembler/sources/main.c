@@ -6,7 +6,7 @@
 /*   By: npineau <npineau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/01/24 13:49:13 by npineau           #+#    #+#             */
-/*   Updated: 2014/01/24 13:59:18 by npineau          ###   ########.fr       */
+/*   Updated: 2014/01/24 14:49:55 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,6 @@ int	main(int argc, char **argv)
 
 	i = 1;
 	while (i++ < argc)
-		compile(argv[i - 1]);
+		translate(argv[i - 1]);
 	return (0);
 }
