@@ -1,19 +1,21 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   init_reg.c                                         :+:      :+:    :+:   */
+/*   copy_champ.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: npineau <npineau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2014/01/27 14:03:27 by npineau           #+#    #+#             */
-/*   Updated: 2014/01/29 18:32:02 by npineau          ###   ########.fr       */
+/*   Created: 2014/01/29 18:28:21 by npineau           #+#    #+#             */
+/*   Updated: 2014/01/29 19:38:28 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
+#include "vm.h"
 #include "op.h"
 
-char *init_reg()
+void	copy_champ(int champ, int max_champ, t_vm *vm, t_opt *options)
 {
-	char	*reg;
+	t_clst	*champion;
 
-	reg = 
+	champion = get_champ(champ, option->champ);
+}
