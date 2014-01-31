@@ -1,3 +1,4 @@
-t_opt	*gather_options(int ac, char **av)
+t_opt		*gather_options(int ac, char **av)
 {
+	t_opt	*new;
 }
