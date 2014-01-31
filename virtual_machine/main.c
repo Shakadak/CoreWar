@@ -6,12 +6,13 @@
 /*   By: npineau <npineau@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2014/01/29 14:53:50 by npineau           #+#    #+#             */
-/*   Updated: 2014/01/29 17:03:05 by npineau          ###   ########.fr       */
+/*   Updated: 2014/01/31 15:32:04 by npineau          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 #include "op.h"
+#include "vm.h"
 
 int	main(int argc, char **argv)
 {
